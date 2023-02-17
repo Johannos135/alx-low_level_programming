@@ -6,10 +6,10 @@
 int main(void)
 {
 	int i;
-	char letters[52] = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+	char let[52] = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
 	for (i = 0; i < 52; i++)
-		putchar(letters[i]);
+		putchar(let[i]);
 	putchar('\n');
 
 	return (0);
