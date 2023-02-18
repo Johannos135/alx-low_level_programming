@@ -5,13 +5,13 @@
  */
 int main(void)
 {
-	int num;
+	int numb;
 
-	for (num = 48; num < 58; num++)
-		putchar(num);
+	for (numb = 48; numb < 58; numb++)
+		putchar(numb);
 
-	for (num = 97; num < 103; num++)
-		putchar(num);
+	for (numb = 97; numb < 103; numb++)
+		putchar(numb);
 
 	putchar('\n');
 
