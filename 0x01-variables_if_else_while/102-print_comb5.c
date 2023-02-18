@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - Prints numbers between 00 to 99.
  *
@@ -44,5 +43,6 @@ while (h < 58)
 	h++;
 }
 putchar('\n');
+
 return (0);
 }
