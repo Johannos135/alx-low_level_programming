@@ -5,12 +5,12 @@
  */
 int main(void)
 {
-	char alp;
+	char letters;
 
-	for (alp = 'a'; alp <= 'z'; alp++)
+	for (letters = 'a'; letters <= 'z'; letters++)
 	{
-		if (alp != 'e' && alp != 'q')
-			putchar(alp);
+		if (letters != 'e' && letters != 'q')
+			putchar(letters);
 	}
 
 	putchar('\n');
